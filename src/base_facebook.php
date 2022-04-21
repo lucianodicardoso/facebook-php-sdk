@@ -429,7 +429,7 @@ abstract class BaseFacebook
    * The first time this is called, $this->accessToken is set equal
    * to either a valid user access token, or it's set to the application
    * access token if a valid user access token wasn't available.  Subsequent
-   * calls return whatever the first call returned.
+   * calls return whatever the first call returned. MODIFICADO
    *
    * @return string The access token
    */
